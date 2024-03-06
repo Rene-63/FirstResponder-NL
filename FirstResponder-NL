@@ -1,24 +1,21 @@
 // ==UserScript==
-// @name        * Ersthelfer
-// @namespace   bos-ernie.leitstellenspiel.de
+// @name        * FirstResponder-NL
+// @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.0.0
-// @license     BSD-3-Clause
-// @author      BOS-Ernie
-// @description Wählt das nächstliegende Ersthelferfahrzeug aus
-// @match       https://*.leitstellenspiel.de/missions/*
-// @icon        https://www.google.com/s2/favicons?sz=64&domain=leitstellenspiel.de
+// @author      Ree-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
+// @description Selecteert het dichtstbijzijnde hulpvoertuig
+// @match       https://*.meldkamerspel.com/missions/*
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @resource    https://forum.leitstellenspiel.de/index.php?thread/25554-script-ersthelfer-by-bos-ernie/
+// @resource    
 // ==/UserScript==
  
 (function () {
   /**
-   * Liste der Fahrzeugtypen die als Ersthelfer ausgewöhlt werden dürfen.
+* Lijst met voertuigtypen die kunnen worden geselecteerd als hulpverleners.
    *
-   * Nicht zu verwendende Fahrzeuge auskommentieren oder entfernen. Die Liste aktueller Fahrzeugtypen wird im Forum
-   * gepflegt (siehe Link).
-   * https://forum.leitstellenspiel.de/index.php?thread/8406-infos-f%C3%BCr-entwickler/&postID=485487#post485487
+   * Geef commentaar of verwijder voertuigen die niet bedoeld zijn om te worden gebruikt.
    *
    *  @type {number[]}
    */
@@ -90,7 +87,7 @@
  
     if (!firstResponderFound) {
       alert(
-        "[Ersthelfer] Kein passendes Fahrzeug gefunden. Entweder Fahrzeuge nachladen oder erlaubte Fahrzeugtypen erweitern.",
+        "[Ersthelfer] Geen geschikt voertuig gevonden. Herlaad voertuigen of breid de toegestane voertuigtypen uit.",
       );
     }
   }
