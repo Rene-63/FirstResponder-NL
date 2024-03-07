@@ -46,7 +46,7 @@
  
   function addSelectButton() {
     const icon = document.createElement("span");
-    icon.classList.add("glyphicon", "glyphicon-fire");
+    icon.classList.add("glyphicon", "ok-circle");
  
     const firstResponderButton = document.createElement("button");
     firstResponderButton.classList.add("btn", "btn-primary");
@@ -111,7 +111,7 @@
     addSelectButton();
  
     document.addEventListener("keydown", function (event) {
-      if (event.key === "f") {
+      if (event.key === "g") {
         selectFirstResponder();
       }
     });
