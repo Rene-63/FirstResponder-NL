@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        * FirstResponder-NL
+// @name        * FirstResponder-NL (DA-NH)
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.0.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
@@ -8,6 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL 
 // @resource    
 // ==/UserScript==
  
