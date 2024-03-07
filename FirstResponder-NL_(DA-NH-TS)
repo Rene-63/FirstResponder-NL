@@ -52,7 +52,7 @@
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "Ersthelfer auswählen (Taste: f)";
+    firstResponderButton.title = "Ersthelfer auswählen (Taste: g)";
  
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
