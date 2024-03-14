@@ -8,11 +8,11 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS)
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS)
-// @resource    
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/blob/main/FirstResponder-NL_(DA-NH-TS)
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/blob/main/FirstResponder-NL_(DA-NH-TS)
+// @resource
 // ==/UserScript==
- 
+
 (function () {
   /**
 * Lijst met voertuigtypen die kunnen worden geselecteerd als hulpverleners.
@@ -33,7 +33,6 @@
 12, // TST-NB 8/9
 14, // TST-NB 6/7
 15, // TST-NB 4/5
-16, // Ambulance
 17, // TS 6/7
 20, // DA
 21, // DB-K
@@ -43,79 +42,79 @@
 60, // DB-Bike
 
   ];
- 
+
   function addSelectButton() {
     const icon = document.createElement("span");
     icon.classList.add("glyphicon", "ok-circle");
- 
+
     const firstResponderButton = document.createElement("button");
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "Ersthelfer auswählen (Taste: g)";
- 
+    firstResponderButton.title = "Ersthelfer auswählen (Taste: f)";
+
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
     wrapper.appendChild(firstResponderButton);
- 
+
     const iframeBottomContent = document.querySelector("#iframe-bottom-content");
     if (iframeBottomContent === null) {
       return;
     }
- 
+
     let parent = iframeBottomContent.querySelector("#mission_alliance_share_btn");
     if (parent === null) {
       parent = iframeBottomContent.querySelector("#mission_next_mission_btn");
     }
- 
+
     parent.parentElement.after(wrapper);
   }
- 
+
   function clickEventHandler(event) {
     event.preventDefault();
     selectFirstResponder();
   }
- 
+
   async function selectFirstResponder() {
     const checkboxes = document.getElementsByClassName("vehicle_checkbox");
- 
+
     let firstResponderFound = false;
     for (let i = 0; i < checkboxes.length; i++) {
       const checkbox = checkboxes[i];
- 
+
       if (checkbox.disabled) {
         continue;
       }
- 
+
       if (checkbox.checked) {
         continue;
       }
- 
+
       const vehicleTypeId = parseInt(checkbox.getAttribute("vehicle_type_id"));
       if (firstResponderVehicleTypeIds.includes(vehicleTypeId)) {
         checkbox.click();
         firstResponderFound = true;
- 
+
         break;
       }
     }
- 
+
     if (!firstResponderFound) {
       alert(
         "[Ersthelfer] Geen geschikt voertuig gevonden. Herlaad voertuigen of breid de toegestane voertuigtypen uit.",
       );
     }
   }
- 
+
   function main() {
     addSelectButton();
- 
+
     document.addEventListener("keydown", function (event) {
       if (event.key === "g") {
         selectFirstResponder();
       }
     });
   }
- 
+
   main();
 })();
