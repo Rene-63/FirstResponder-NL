@@ -8,8 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/blob/main/FirstResponder-NL_(DA-NH-TS)
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/blob/main/FirstResponder-NL_(DA-NH-TS)
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
 // @resource
 // ==/UserScript==
 
