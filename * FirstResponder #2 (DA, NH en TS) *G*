@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        * FirstResponder #2 (DA, NH en TS)
+// @name        * FirstResponder #2 (DA, NH en TS) *G*
 // @namespace   https://www.meldkamerspel.com/profile/214761
-// @version     1.0.0
+// @version     1.1.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
 // @description Selecteert het dichtstbijzijnde hulpvoertuig
 // @match       https://*.meldkamerspel.com/missions/*
