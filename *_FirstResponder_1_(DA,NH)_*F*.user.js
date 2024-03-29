@@ -33,7 +33,7 @@
 
   function addSelectButton() {
     const icon = document.createElement("span");
-    icon.classList.add("glyphicon", "glyphicon-fire");
+    icon.classList.add("glyphicon", "glyphicon-minus");
 
     const firstResponderButton = document.createElement("button");
     firstResponderButton.classList.add("btn", "btn-primary");
