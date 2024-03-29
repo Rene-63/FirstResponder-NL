@@ -33,13 +33,13 @@
 
   function addSelectButton() {
     const icon = document.createElement("span");
-    icon.classList.add("glyphicon", "glyphicon-remove");
+    icon.classList.add("glyphicon", "glyphicon-fire");
 
     const firstResponderButton = document.createElement("button");
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "FirstResponder alarmeren (Toets: f)";
+    firstResponderButton.title = "FirstResponder Alarmeren (Taste: f)";
 
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
