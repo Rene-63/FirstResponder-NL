@@ -10,7 +10,7 @@
 // @grant       none
 // @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
 // @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
-// @resource
+
 // ==/UserScript==
 
 (function () {
