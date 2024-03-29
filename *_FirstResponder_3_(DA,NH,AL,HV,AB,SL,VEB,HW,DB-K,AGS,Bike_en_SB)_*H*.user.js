@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB)
+// @name        *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB)_*H*
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.1.0
 // @author      Ree-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
@@ -8,8 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB).user.js
-// @downloadURL *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB).user.js
+// @updateURL   *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB)_*H*.user.js
+// @downloadURL *_FirstResponder_3_(DA,NH,AL,HV,AB,SL,VEB,HW,DB-K,AGS,Bike_en_SB)_*H*.user.js
 
 // ==/UserScript==
 
