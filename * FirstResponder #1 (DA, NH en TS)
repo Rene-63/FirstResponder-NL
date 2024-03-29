@@ -1,4 +1,4 @@
-// ==UserScript==
+.// ==UserScript==
 // @name        * FirstResponder #1 (DA, NH en TS)
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.0.0
@@ -8,8 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).js
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).js
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).user.js
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).user.js
 // @resource
 // ==/UserScript==
 
