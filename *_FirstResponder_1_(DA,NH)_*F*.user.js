@@ -98,7 +98,7 @@
     addSelectButton();
 
     document.addEventListener("keydown", function (event) {
-      if (event.key === "f") {
+      if (event.key === "F") {
         selectFirstResponder();
       }
     });
