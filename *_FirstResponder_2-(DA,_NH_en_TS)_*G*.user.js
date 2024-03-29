@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        *_FirstResponder_2-(DA,_NH_en_TS)-*G*
+// @name        *_FirstResponder_2-(DA,_NH_en_TS)_*G*
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.1.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
@@ -8,8 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/*_FirstResponder_%232-(DA%2C_NH_en_TS)-*G*.user.js
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/*_FirstResponder_%232-(DA%2C_NH_en_TS)-*G*.user.js
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/*_FirstResponder_%232-(DA%2C_NH_en_TS)_*G*.user.js
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/*_FirstResponder_%232-(DA%2C_NH_en_TS)_*G*.user.js
 // @resource
 // ==/UserScript==
 
