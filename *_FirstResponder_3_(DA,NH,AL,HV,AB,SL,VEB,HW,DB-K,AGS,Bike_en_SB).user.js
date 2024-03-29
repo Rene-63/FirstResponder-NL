@@ -8,8 +8,8 @@
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/raw/main/FirstResponder-NL_(DA-NH-TS).js
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/blob/bfd180a3c26cfb0e28dbcc94948aa3dfdceb744b/*_FirstResponder_3_(DA%2CNH%2CAL%2CHV%2CAB%2CSL%2CVEB%2CHW%2CDB-K%2CAGS%2CBike_en_SB).user.js
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/blob/bfd180a3c26cfb0e28dbcc94948aa3dfdceb744b/*_FirstResponder_3_(DA%2CNH%2CAL%2CHV%2CAB%2CSL%2CVEB%2CHW%2CDB-K%2CAGS%2CBike_en_SB).user.js
 
 // ==/UserScript==
 
@@ -48,7 +48,7 @@
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "Ersthelfer auswählen (Taste: h)";
+    firstResponderButton.title = "FirstResponder alarmeren (Toets: H)";
 
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
@@ -98,7 +98,7 @@
 
     if (!firstResponderFound) {
       alert(
-        "[Ersthelfer] Geen geschikt voertuig gevonden. Herlaad voertuigen of breid de toegestane voertuigtypen uit.",
+        "[FirstResponder] Geen geschikt voertuig gevonden. Herlaad voertuigen of breid de toegestane voertuigtypen uit.",
       );
     }
   }
@@ -107,7 +107,7 @@
     addSelectButton();
 
     document.addEventListener("keydown", function (event) {
-      if (event.key === "h") {
+      if (event.key === "H") {
         selectFirstResponder();
       }
     });
