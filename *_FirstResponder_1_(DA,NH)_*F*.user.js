@@ -39,7 +39,7 @@
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "FirstResponder alarmeren (Toets: F)";
+    firstResponderButton.title = "FirstResponder alarmeren (Toets: f)";
 
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
@@ -98,7 +98,7 @@
     addSelectButton();
 
     document.addEventListener("keydown", function (event) {
-      if (event.key === "F") {
+      if (event.key === "f") {
         selectFirstResponder();
       }
     });
