@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        *_FirstResponder_#2-(DA,_NH_en_TS)-*G*
+// @name        *_FirstResponder_2-(DA,_NH_en_TS)-*G*
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.1.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
