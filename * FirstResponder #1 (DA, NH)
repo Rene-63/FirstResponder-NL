@@ -1,15 +1,15 @@
 .// ==UserScript==
-// @name        * FirstResponder #1 (DA, NH en TS)
+// @name        * FirstResponder #1 (DA, NH)
 // @namespace   https://www.meldkamerspel.com/profile/214761
-// @version     1.0.0
+// @version     1.1.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
 // @description Selecteert het dichtstbijzijnde hulpvoertuig
 // @match       https://*.meldkamerspel.com/missions/*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=meldkamerspel.com
 // @run-at      document-idle
 // @grant       none
-// @updateURL   https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).user.js
-// @downloadURL https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).user.js
+// @updateURL   https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).js
+// @downloadURL https://github.com/Rene-63/FirstResponder-NL/FirstResponder-NL_(DA-NH).js
 // @resource
 // ==/UserScript==
 
