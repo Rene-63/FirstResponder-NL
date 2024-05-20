@@ -22,6 +22,7 @@
    *  @type {number[]}
    */
   const firstResponderVehicleTypeIds = [
+
 20, // DA
 21, // DB-K
 
@@ -35,7 +36,7 @@
     firstResponderButton.classList.add("btn", "btn-primary");
     firstResponderButton.appendChild(icon);
     firstResponderButton.addEventListener("click", clickEventHandler);
-    firstResponderButton.title = "FirstResponder Alarmeren (Taste: f)";
+    firstResponderButton.title = "FirstReponder alarmeren (Toets: f)";
 
     const wrapper = document.createElement("div");
     wrapper.classList.add("flex-row", "flex-nowrap");
