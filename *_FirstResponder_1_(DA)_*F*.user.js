@@ -1,5 +1,5 @@
 .// ==UserScript==
-// @name        *_FirstResponder_1_(DA,NH)_*F*
+// @name        *_FirstResponder_1_(DA)_*F*
 // @namespace   https://www.meldkamerspel.com/profile/214761
 // @version     1.1.0
 // @author      Rene-MKS (Oorspronkelijk DE uitvoering BOS-Ernie)
@@ -24,10 +24,6 @@
   const firstResponderVehicleTypeIds = [
 20, // DA
 21, // DB-K
-22, // DA Noodhulp
-25, // DB Noodhulp
-46, // DM Noodhulp
-60, // DB-Bike
 
   ];
 
